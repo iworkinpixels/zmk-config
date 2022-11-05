@@ -20,11 +20,11 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |     RAISE     | LEFT  | DOWN | UP |   RIGHT   |
 
             bindings = <
-  &none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                                        &none          &kp N6    &kp N7     &kp N8         &kp N9        &kp N0
-  &none   &kp Q   &kp W   &kp F   &kp P   &kp B           &none                                &none   &kp J           &kp L     &kp U      &kp Y  &kp SEMICOLON         &none
-  &none   &kp A   &kp R   &kp S   &kp T   &kp G           &none                                &none   &kp M           &kp N     &kp E      &kp I          &kp O         &none
-  &none   &kp Z   &kp X   &kp C   &kp D   &kp V           &none      &none          &none      &none   &kp N           &kp K     &kp H  &kp COMMA     &kp PERIOD  &kp QUESTION
-  &none   &none   &none   &none           &mo 1  &kp LEFT_SHIFT  &kp SPACE  &kp BACKSPACE  &kp ENTER           &mo 2          &kp LEFT   &kp DOWN         &kp UP     &kp RIGHT
+      &kp GRAVE   &kp N1       &kp N2         &kp N3  &kp N4  &kp N5                                                               &kp N6  &kp N7    &kp N8     &kp N9         &kp N0        &kp DELETE
+   &kp CAPSLOCK    &kp Q        &kp W          &kp F   &kp P   &kp B           &none                                    &kp EQUAL   &kp J   &kp L     &kp U      &kp Y  &kp SEMICOLON     &kp BACKSLASH
+        &kp TAB    &kp A        &kp R          &kp S   &kp T   &kp G       &kp LC(B)                                    &kp MINUS   &kp M   &kp N     &kp E      &kp I          &kp O  &kp SINGLE_QUOTE
+ &kp LEFT_SHIFT    &kp Z        &kp X          &kp C   &kp D   &kp V       &kp LC(B)  &kp LG(C)              &kp LG(V)  &kp LG(X)   &kp N   &kp K     &kp H  &kp COMMA     &kp PERIOD         &kp SLASH
+       &kp HOME  &kp END  &kp PAGE_UP  &kp PAGE_DOWN           &mo 1  &kp LEFT_SHIFT  &kp SPACE          &kp BACKSPACE  &kp ENTER   &mo 2          &kp LEFT   &kp DOWN         &kp UP         &kp RIGHT
             >;
         };
 
@@ -37,11 +37,11 @@
             // | CRTL  | ALT | GUI | LOWER |     GUI     | LOWER | SPACE   | --- | DEL  |  0  |    RAISE  | LEFT | DOWN | UP  | RIGHT |
 
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans                                            &trans          &trans  &trans  &trans       &trans        &trans
-  &none   &none   &none   &none   &none   &none  &trans                     &trans          &none          &kp N7  &kp N8  &kp N9       &kp N0       &kp DEL
- &trans   &none   &none   &none   &none   &none  &trans                     &trans          &none          &kp N4  &kp N5  &kp N6  &kp KP_PLUS  &kp KP_MINUS
- &trans   &none   &none   &none   &none   &none  &trans  &trans     &trans  &trans  &kp KP_DIVIDE          &kp N1  &kp N2  &kp N3      &kp RET       &kp RET
- &trans  &trans  &trans  &trans          &trans  &trans  &trans  &kp ENTER  &kp N0                 &trans          &trans  &trans       &trans        &trans
+  &none   &none   &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &none                                                          &none      &none      &none      &none   &none    &kp KP_DIVIDE
+  &none   &none   &none        &kp LEFT_BRACE        &kp RIGHT_BRACE   &none   &none                                    &none         &none  &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans  &kp KP_MULTIPLY
+ &trans   &none   &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &none  &trans                                    &none         &none  &kp KP_N4  &kp KP_N5  &kp KP_N6   &none     &kp KP_MINUS
+  &none   &none   &none         &kp LESS_THAN       &kp GREATER_THAN   &none   &none   &none                 &none      &none  &kp KP_COMMA  &kp KP_N1  &kp KP_N2  &kp KP_N3   &none      &kp KP_PLUS
+  &none   &none   &none                 &none                         &trans   &none   &none          &kp KP_ENTER  &kp KP_N0         &none                 &none      &none   &none            &none
             >;
         };
 
@@ -54,11 +54,11 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |    RAISE    | LEFT | DOWN | UP    | RIGHT |
 
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans                                                 &trans            &none       &none         &none         &none   &none
-  &none   &none   &none   &none   &none   &none  &trans                  &kp C_BRIGHTNESS_INC   &kp F1           &kp F2      &kp F3        &kp F4        &kp F5   &none
- &trans   &none   &none   &none   &none   &none  &trans                  &kp C_BRIGHTNESS_DEC   &kp F6           &kp F7      &kp F8        &kp F9       &kp F10   &none
- &trans   &none   &none   &none   &none   &none  &trans  &trans  &trans                &trans  &kp F11          &kp F12  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP     &kp
- &trans  &trans  &trans   &none          &trans   &none  &trans  &trans                &trans           &trans               &trans        &trans        &trans  &trans
+  &none    &none    &none       &none         &none         &none                                                &trans   &none   &none   &none   &none   &none
+  &none   &kp F1   &kp F2      &kp F3        &kp F4        &kp F5  &kp C_BRI_UP                           &none   &none   &none   &none   &none   &none   &none
+  &none   &kp F6   &kp F7      &kp F8        &kp F9       &kp F10  &kp C_BRI_DN                           &none   &kp H   &kp J   &kp K   &kp L   &none   &none
+  &none  &kp F11  &kp F12  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP         &none  &trans           &none   &none   &none   &none   &none   &none   &none   &none
+  &none    &none   &trans       &none                       &none         &none   &none           &none   &none  &trans           &none   &none   &none   &none
             >;
         };
     };
