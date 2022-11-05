@@ -54,11 +54,11 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |    RAISE    | LEFT | DOWN | UP    | RIGHT |
 
             bindings = <
-  &none    &none    &none       &none         &none         &none                                                &trans   &none   &none   &none   &none   &none
-  &none   &kp F1   &kp F2      &kp F3        &kp F4        &kp F5  &kp C_BRI_UP                           &none   &none   &none   &none   &none   &none   &none
-  &none   &kp F6   &kp F7      &kp F8        &kp F9       &kp F10  &kp C_BRI_DN                           &none   &kp H   &kp J   &kp K   &kp L   &none   &none
-  &none  &kp F11  &kp F12  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP         &none  &trans           &none   &none   &none   &none   &none   &none   &none   &none
-  &none    &none   &trans       &none                       &none         &none   &none           &none   &none  &trans           &none   &none   &none   &none
+  &none    &none    &none       &none         &none         &none                                                     &trans   &none   &none   &none   &none   &none
+  &none   &kp F1   &kp F2      &kp F3        &kp F4        &kp F5  &kp C_BRI_UP                          &bootloader   &none   &none   &none   &none   &none   &none
+  &none   &kp F6   &kp F7      &kp F8        &kp F9       &kp F10  &kp C_BRI_DN                                &none   &kp H   &kp J   &kp K   &kp L   &none   &none
+  &none  &kp F11  &kp F12  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP         &none  &trans           &none        &none   &none   &none   &none   &none   &none   &none
+  &none    &none   &trans       &none                       &none         &none   &none           &none        &none  &trans           &none   &none   &none   &none
             >;
         };
     };
