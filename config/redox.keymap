@@ -37,11 +37,11 @@
             // | CRTL  | ALT | GUI | LOWER |     GUI     | LOWER | SPACE   | --- | DEL  |  0  |    RAISE  | LEFT | DOWN | UP  | RIGHT |
 
             bindings = <
-  &none   &none   &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &none                                                          &none      &none      &none      &none   &none    &kp KP_DIVIDE
-  &none   &none   &none        &kp LEFT_BRACE        &kp RIGHT_BRACE   &none   &none                                    &none         &none  &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans  &kp KP_MULTIPLY
- &trans   &none   &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &none  &trans                                    &none         &none  &kp KP_N4  &kp KP_N5  &kp KP_N6   &none     &kp KP_MINUS
-  &none   &none   &none         &kp LESS_THAN       &kp GREATER_THAN   &none   &none   &none                 &none      &none  &kp KP_COMMA  &kp KP_N1  &kp KP_N2  &kp KP_N3   &none      &kp KP_PLUS
-  &none   &none   &none                 &none                         &trans   &none   &none          &kp KP_ENTER  &kp KP_N0         &none                 &none      &none   &none            &none
+  &none   &none   &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &none                                                               &none      &none      &none      &none   &none    &kp KP_DIVIDE
+  &none   &none   &none        &kp LEFT_BRACE        &kp RIGHT_BRACE   &none  &bootloader                                    &none         &none  &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans  &kp KP_MULTIPLY
+ &trans   &none   &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &none       &trans                                    &none         &none  &kp KP_N4  &kp KP_N5  &kp KP_N6   &none     &kp KP_MINUS
+  &none   &none   &none         &kp LESS_THAN       &kp GREATER_THAN   &none        &none   &none                 &none      &none  &kp KP_COMMA  &kp KP_N1  &kp KP_N2  &kp KP_N3   &none      &kp KP_PLUS
+  &none   &none   &none                 &none                         &trans        &none   &none          &kp KP_ENTER  &kp KP_N0         &none                 &none      &none   &none            &none
             >;
         };
 
@@ -54,11 +54,11 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |    RAISE    | LEFT | DOWN | UP    | RIGHT |
 
             bindings = <
-  &none    &none    &none       &none         &none         &none                                                     &trans   &none   &none   &none   &none   &none
-  &none   &kp F1   &kp F2      &kp F3        &kp F4        &kp F5  &kp C_BRI_UP                          &bootloader   &none   &none   &none   &none   &none   &none
-  &none   &kp F6   &kp F7      &kp F8        &kp F9       &kp F10  &kp C_BRI_DN                                &none   &kp H   &kp J   &kp K   &kp L   &none   &none
-  &none  &kp F11  &kp F12  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP         &none  &trans           &none        &none   &none   &none   &none   &none   &none   &none
-  &none    &none   &trans       &none                       &none         &none   &none           &none        &none  &trans           &none   &none   &none   &none
+  &none    &none    &none       &none         &none         &none                                                             &trans   &none   &none   &none   &none   &none
+  &none   &kp F1   &kp F2      &kp F3        &kp F4        &kp F5         &none                                  &bootloader   &none   &none   &none   &none   &none   &none
+  &none   &kp F6   &kp F7      &kp F8        &kp F9       &kp F10  &kp C_BRI_DN                                 &kp C_BRI_UP   &kp H   &kp J   &kp K   &kp L   &none   &none
+  &none  &kp F11  &kp F12  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP         &none         &trans           &none         &none   &none   &none   &none   &none   &none   &none
+  &none    &none   &trans       &none                       &none         &none  &kp LG(LA(X))           &none         &none  &trans           &none   &none   &none   &none
             >;
         };
     };
