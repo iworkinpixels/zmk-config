@@ -21,7 +21,7 @@
 
             bindings = <
       &kp GRAVE   &kp N1       &kp N2         &kp N3  &kp N4  &kp N5                                                                         &kp N6  &kp N7     &kp N8      &kp N9         &kp N0        &kp DELETE
-   &kp CAPSLOCK    &kp Q        &kp W          &kp F   &kp P   &kp B              &none                                           &kp EQUAL   &kp J   &kp L      &kp U       &kp Y  &kp SEMICOLON     &kp BACKSLASH
+     &kp ESCAPE    &kp Q        &kp W          &kp F   &kp P   &kp B              &none                                           &kp EQUAL   &kp J   &kp L      &kp U       &kp Y  &kp SEMICOLON     &kp BACKSLASH
         &kp TAB    &kp A        &kp R          &kp S   &kp T   &kp G          &kp LC(B)                                           &kp MINUS   &kp M   &kp N      &kp E       &kp I          &kp O  &kp SINGLE_QUOTE
  &kp LEFT_SHIFT    &kp Z        &kp X          &kp C   &kp D   &kp V  &kp LA(LC(LSHFT))  &kp LEFT_CONTROL               &kp LGUI   &kp LALT   &kp K   &kp H  &kp COMMA  &kp PERIOD      &kp SLASH         &kp ENTER
        &kp HOME  &kp END  &kp PAGE_UP  &kp PAGE_DOWN           &mo 1     &kp LEFT_SHIFT         &kp SPACE          &kp BACKSPACE  &kp ENTER   &mo 2           &kp LEFT    &kp DOWN         &kp UP         &kp RIGHT
@@ -37,11 +37,11 @@
             // | CRTL  | ALT | GUI | LOWER |     GUI     | LOWER | SPACE   | --- | DEL  |  0  |    RAISE  | LEFT | DOWN | UP  | RIGHT |
 
             bindings = <
-  &none   &none   &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &none                                                         &none      &none      &none      &none   &none    &kp KP_DIVIDE
-  &none   &none   &none        &kp LEFT_BRACE        &kp RIGHT_BRACE   &none  &bootloader                                    &none   &none  &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans  &kp KP_MULTIPLY
- &trans   &none   &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &none       &trans                                    &none   &none  &kp KP_N4  &kp KP_N5  &kp KP_N6   &none     &kp KP_MINUS
-  &none   &none   &none         &kp LESS_THAN       &kp GREATER_THAN   &none        &none   &none                 &none      &none   &none  &kp KP_N1  &kp KP_N2  &kp KP_N3   &none      &kp KP_PLUS
-  &none   &none   &none                 &none                         &trans        &none   &none          &kp KP_ENTER  &kp KP_N0   &none                 &none      &none   &none            &none
+  &none   &none   &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &none                                                         &none       &none      &none      &none   &none    &kp KP_DIVIDE
+  &none   &none   &none        &kp LEFT_BRACE        &kp RIGHT_BRACE   &none  &bootloader                                    &none   &none       &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans  &kp KP_MULTIPLY
+ &trans   &none   &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &none       &trans                                    &none   &none       &kp KP_N4  &kp KP_N5  &kp KP_N6   &none     &kp KP_MINUS
+  &none   &none   &none         &kp LESS_THAN       &kp GREATER_THAN   &none        &none   &none                 &none      &none   &kp PK_DOT  &kp KP_N1  &kp KP_N2  &kp KP_N3   &none      &kp KP_PLUS
+  &none   &none   &none                 &none                         &trans        &none   &none          &kp KP_ENTER  &kp KP_N0   &none                  &none      &none        &none     &none
             >;
         };
 
