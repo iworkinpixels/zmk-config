@@ -40,7 +40,7 @@
   &none   &none   &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &none                                                         &none       &none      &none      &none   &none    &kp KP_DIVIDE
   &none   &none   &none        &kp LEFT_BRACE        &kp RIGHT_BRACE   &none  &bootloader                                    &none   &none       &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans  &kp KP_MULTIPLY
  &trans   &none   &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &none       &trans                                    &none   &none       &kp KP_N4  &kp KP_N5  &kp KP_N6   &none     &kp KP_MINUS
-  &none   &none   &none         &kp LESS_THAN       &kp GREATER_THAN   &none        &none   &none                 &none      &none   &kp PK_DOT  &kp KP_N1  &kp KP_N2  &kp KP_N3   &none      &kp KP_PLUS
+  &none   &none   &none         &kp LESS_THAN       &kp GREATER_THAN   &none        &none   &none                 &none      &none   &kp KP_DOT  &kp KP_N1  &kp KP_N2  &kp KP_N3   &none      &kp KP_PLUS
   &none   &none   &none                 &none                         &trans        &none   &none          &kp KP_ENTER  &kp KP_N0   &none                  &none      &none        &none     &none
             >;
         };
