@@ -46,11 +46,11 @@
             // | CRTL  | ALT | GUI | LOWER |     GUI     | LOWER | SPACE   | --- | DEL  |  0  |    RAISE  | LEFT | DOWN | UP  | RIGHT |
 
             bindings = <
-  &none           &none              &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET          &none                                                             &none      &none      &none      &none   &none    &kp KP_DIVIDE
-  &none       &kp SLASH      &kp BACKSLASH        &kp LEFT_BRACE        &kp RIGHT_BRACE       &kp HASH  &bootloader                                    &none       &none  &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans  &kp KP_MULTIPLY
- &trans  &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS      &kp GRAVE       &trans                                    &none       &none  &kp KP_N4  &kp KP_N5  &kp KP_N6   &none     &kp KP_MINUS
-  &none      &kp PERIOD    &kp EXCLAMATION         &kp LESS_THAN       &kp GREATER_THAN  &Triple Grave        &none   &none                 &none      &none  &kp KP_DOT  &kp KP_N1  &kp KP_N2  &kp KP_N3   &none      &kp KP_PLUS
-  &none           &none              &none                 &none                                &trans        &none   &none          &kp KP_ENTER  &kp KP_N0       &none                 &none      &none   &none            &none
+  &none           &none              &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none                                                             &none      &none      &none      &none   &none    &kp KP_DIVIDE
+  &none       &kp SLASH      &kp BACKSLASH        &kp LEFT_BRACE        &kp RIGHT_BRACE   &kp HASH  &bootloader                                    &none       &none  &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans  &kp KP_MULTIPLY
+ &trans  &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE       &trans                                    &none       &none  &kp KP_N4  &kp KP_N5  &kp KP_N6   &none     &kp KP_MINUS
+  &none      &kp PERIOD    &kp EXCLAMATION         &kp LESS_THAN       &kp GREATER_THAN      &none        &none   &none                 &none      &none  &kp KP_DOT  &kp KP_N1  &kp KP_N2  &kp KP_N3   &none      &kp KP_PLUS
+  &none           &none              &none                 &none                            &trans        &none   &none          &kp KP_ENTER  &kp KP_N0       &none                 &none      &none   &none            &none
             >;
         };
 
